@@ -1,0 +1,13 @@
+/*
+FILE: CSS Body File
+Created by Victor Moreno
+Date: 10/13/2020
+*/
+
+
+/*SEARCH BAR STYLE*/
+#search-container {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+}

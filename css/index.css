@@ -16,8 +16,14 @@ button:focus {
     outline: none;
 }
 
+/*SPLASHSCREEN*/
+#splashscreen {
+ display: none;
+}
+
 /*SEARCH BAR STYLE*/
 #search-container {
+ display: none;
  position: absolute;
  top: 50%;
  width: 99%;

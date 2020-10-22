@@ -26,9 +26,6 @@ button:focus {
  font-size: 4em;
  opacity: 0;
 }
-.active {
- opacity: 1; 
-}
 
 /*SEARCH BAR STYLE*/
 #search-container {

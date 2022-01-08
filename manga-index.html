@@ -1,47 +1,42 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Manga Mood | Home</title>
-  <meta name="description" content="Victor Moreno Portfolio">
-  <meta name="author" content="Victor Moreno">
-  <!---JQuery FRAMEWORK CDN--->
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <!---CSS LIB CDN--->
-  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-  <!--MY STYLE SHEETS-->
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="css/mobile.css">
-  <link rel="stylesheet" href="css/font-styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Manga Mood | Home</title>
+    <meta name="description" content="Victor Moreno Portfolio">
+    <meta name="author" content="Victor Moreno">
+    <!---JQuery FRAMEWORK CDN--->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!---CSS LIB CDN--->
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <!--MY STYLE SHEETS-->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/font-styles.css">
 
 </head>
-<body onload="splash()">
- <div class="main">
 
-<!---SPLASH MSG--->
-<div id="splashscreen">
- <p class="chgTXT ct01">What genre are you in the mood for?</p>
- <p class="chgTXT ct02">Any specific niche or topic?</p>
- <p class="chgTXT ct03">Hmm...thats weird but okay. Hold up.</p>
- <p class="chgTXT ct04">You might like these titles.</p>
-</div>
+<body>
+    <div class="content">
 
-<!---SEARCH BAR--->
-<div id="search-container">
- <div class="search-mood">
-  <input class="search-bar" placeholder="O'genki desu ka?" type="search" name="" value="">
- </div>
-</div>
+        <!---SEARCH BAR--->
+        <div class="search-mood">
+            <input class="search-bar" placeholder="O'genki desu ka?" type="search" name="" value="">
+            <button class="submitBTN">find now</button>
+        </div>
 
-
-<!---MY SCRIPTS--->
-  <script src="js/stylescript.js"></script>
+    </div>
+    <div class="content">
+        <div class="mangaList">stuff</div>
+    </div>
+    <!---MY SCRIPTS--->
+    <script src="js/stylescript.js"></script>
     <script src="js/special-effects.js"></script>
-  <script src="js/text-slider.js"></script>
-<!---END OF SCRIPTS--->
-
- </div>
+    <script src="js/text-slider.js"></script>
+    <!---END OF SCRIPTS--->
 </body>
+
 </html>

@@ -4,12 +4,46 @@ Created by Victor Moreno
 Date: 10/13/2020
 */
 
-div.main {
- text-align: center;
- margin: 0;
- padding: 0;
- font-family: 'Raleway', sans-serif;
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    cursor: crosshair;
 }
+
+body,
+.title {
+    margin: 0;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+}
+
+
+/*SEARCH BAR STYLE*/
+
+.submitBTN {
+    border: none;
+    padding: 15px 25px;
+    font-size: 2vw;
+    font-family: open sans;
+    letter-spacing: 5px;
+    width: 100%;
+    margin-top: 2vw;
+    text-transform: uppercase;
+    background: #2f2f2f;
+    color: white;
+    transition: 0.5s;
+    transition-timing-function: ease;
+}
+
+.submitBTN:hover {
+    background: #b3b3b3;
+    color: #2f2f2f;
+}
+
 input:focus,
 select:focus,
 textarea:focus,
@@ -17,29 +51,28 @@ button:focus {
     outline: none;
 }
 
-/*SPLASHSCREEN*/
-.chgTXT {
- position: absolute;
- top: 40%;
- width: 99%;
- text-align: center;
- font-size: 4em;
- display: none;
+.search-mood {
+    margin-top: 5vw;
 }
 
-/*SEARCH BAR STYLE*/
-#search-container {
- position: absolute;
- top: 50%;
- width: 99%;
- text-align: center;
-}
 input.search-bar {
- display: inline-block;
- border: 0;
- width: fit-content;
- border-bottom: solid 2px;
- font-size: 5em;
- letter-spacing: 10px;
- text-transform: uppercase;
+    display: inline-block;
+    border: 0;
+    border-bottom: solid 2px;
+    border-left: solid 2px;
+    border-right: solid 2px;
+    font-size: 5vw;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+
+/*SEARCH RESULTS*/
+
+.mangaList {
+    font-family: open sans;
+    text-align: center;
+    padding: 50px 10px;
 }

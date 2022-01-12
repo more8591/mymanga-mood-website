@@ -12,6 +12,8 @@ npm install
 
 node manga.js
 
-3) Visit localhost:8000 through your browser
+3) Visit localhost:8000 through your browser to make sure that data is collecting
 
 http://localhost:8000
+
+4) Open up the manga-index.html through your desired browser

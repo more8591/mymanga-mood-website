@@ -76,3 +76,16 @@ input.search-bar {
     text-align: center;
     padding: 50px 10px;
 }
+
+li {
+    display: none;
+    list-style: none;
+    font-size: 2vw;
+    letter-spacing: 5px;
+    color: #626262;
+}
+
+a {
+    text-decoration: none;
+    color: #626262;
+}

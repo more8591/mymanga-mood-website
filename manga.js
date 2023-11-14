@@ -2,7 +2,6 @@
 
 const PORT = 8000
 const axios = require('axios') //enables HTML
-const open = require('open') // used to open in default browser
 const cheerio = require('cheerio') //enables JQuery selectors
 const express = require('express') //setups local server
 const app = express()
@@ -37,4 +36,3 @@ app.get('/', function(req, res) {
 
 
 app.listen(PORT, () => console.log(`server running on PORT http://localhost:${PORT}`));
-open('manga-index.html');

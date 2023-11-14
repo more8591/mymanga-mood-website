@@ -4,16 +4,15 @@ You can view the website below
 https://more8591.github.io/mymanga-mood-website/.
 
 HOW TO USE
-1) In powershell, use the following command to install dependencies.
+1) Install all dependencies.
 
-npm install
+`npm install`
 
-2) Run the main js file called manga.js
+2) Run the backend.
 
-node manga.js
-
-3) Visit localhost:8000 through your browser to make sure that data is collecting
-
+`node manga.js`
 http://localhost:8000
 
-4) Open up the manga-index.html through your desired browser
+3) Run the UI
+
+`npm run manga-index.js`
